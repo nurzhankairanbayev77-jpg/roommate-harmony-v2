@@ -1,0 +1,20 @@
+
+# Local application data
+/data/
+*.json
+
+# Secrets and environment configuration
+.env
+.env.*
+/config/database.php
+/config/auth.php
+
+# Local temporary files
+*.log
+*.tmp
+
+# IDE and operating system files
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
